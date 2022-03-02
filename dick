@@ -1,0 +1,116 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local UIGradient_2 = Instance.new("UIGradient")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.Name = "water"
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderColor3 = Color3.fromRGB(15, 15, 15)
+Frame.Position = UDim2.new(0.316663027, 0, 0.302197814, 0)
+Frame.Size = UDim2.new(0, 437, 0, 24)
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0, 0, -0.00890095998, 0)
+Frame_2.Size = UDim2.new(0, 437, 0, 1)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(60, 79, 255)), ColorSequenceKeypoint.new(0.12, Color3.fromRGB(131, 202, 255)), ColorSequenceKeypoint.new(0.72, Color3.fromRGB(131, 202, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(131, 202, 255))}
+UIGradient.Rotation = 90
+UIGradient.Parent = Frame_2
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 110, 0, 24)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Omniware"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+TextLabel.TextStrokeTransparency = 0.500
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.266236097, 0, 0.208333328, 0)
+TextLabel_2.Size = UDim2.new(0, 94, 0, 14)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "name"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextStrokeTransparency = 0.500
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.496661127, 0, 0, 0)
+TextLabel_3.Size = UDim2.new(0, 110, 0, 24)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "December 3 2021"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextStrokeTransparency = 0.500
+
+TextLabel_4.Parent = Frame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.250238746, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0, 0, 0, 24)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "|"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextStrokeTransparency = 0.500
+
+TextLabel_5.Parent = Frame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.498648107, 0, -0.0416666679, 0)
+TextLabel_5.Size = UDim2.new(0, 0, 0, 24)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "|"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextStrokeTransparency = 0.500
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(80, 80, 80)), ColorSequenceKeypoint.new(0.37, Color3.fromRGB(45, 45, 45)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(45, 45, 45))}
+UIGradient_2.Rotation = 90
+UIGradient_2.Parent = Frame
+
+TextLabel_6.Parent = Frame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.746806264, 0, -0.0416666679, 0)
+TextLabel_6.Size = UDim2.new(0, 0, 0, 24)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "|"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextStrokeTransparency = 0.500
+
+TextLabel_7.Parent = Frame
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.748377383, 0, 0, 0)
+TextLabel_7.Size = UDim2.new(0, 110, 0, 24)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "00:00:00"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextStrokeTransparency = 0.500
